@@ -1,0 +1,22 @@
+body .have_trial_ln{
+    position: absolute;
+    top: 7px;
+    display: block;
+    width: 865px;
+    background: red;
+    color: #fff;
+    padding: 3px 10px;
+    display: block;
+  }
+ 
+  .nichetablewpwp-modal-panel .nichetablewpwp-item-design[class*="pro"] .nichetablewpwp-item-design-item:before,.nichetablewpwp-item-design-inside:hover .encurragepro{
+      display: none !important;
+  }
+  .pro_table .table_row:hover:before,
+  .pro_table .table_row:hover .block-editor-block-list__layout:before,
+  .niche_table.pro .table_row:hover:before,
+  .niche_table.pro .table_row:hover .block-editor-block-list__layout:before,.pro_table .table_row:hover:after, .niche_table.pro .table_row:hover:after{
+    display: none !important;
+  }
+  .pro_table .table_row:hover .block-editor-block-list__layout, .niche_table.pro .table_row:hover .block-editor-block-list__layout{background: transparent !important;}
+  

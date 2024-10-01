@@ -1,0 +1,102 @@
+.pro_table .table_row,.niche_table.pro .table_row{
+  position: relative;
+}
+.pro_table .table_row:hover:before,
+.pro_table .table_row:hover .block-editor-block-list__layout:before,
+.niche_table.pro .table_row:hover:before,
+.niche_table.pro .table_row:hover .block-editor-block-list__layout:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f3f8cd;
+  padding: 0 10px 0 10px;
+  text-align: center;
+  z-index: 1;
+  content: "";
+}
+.pro_table .table_row:hover:after, .niche_table.pro .table_row:hover:after {
+    content: "Available on NicheTable Premium version- upgrade your plan" !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 0;
+    width: 100% !important;
+    z-index: 10 !important;
+    margin-top: -18px;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background: #f3f8cd !important;
+}
+.editor-block-list-item-nichetablewpwp-niche-table-pro {
+  position: relative;
+}
+.pro_table .table_row:hover .block-editor-block-list__layout, .niche_table.pro .table_row:hover .block-editor-block-list__layout  {
+  background: #f3f8cd;
+}
+.editor-block-list-item-nichetablewpwp-niche-table-pro {
+  display: none;
+  visibility: hidden;
+}
+.editor-block-list-item-nichetablewpwp-niche-table-pro:hover {
+  opacity: 0.5;
+  display: none;
+  visibility: hidden;
+}
+.editor-block-list-item-nichetablewpwp-niche-table-pro:hover:after {
+  content: "Pro";
+  background: red;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.1;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  -webkit-box-shadow: 0px 0px 0.5px 1px #ededed;
+  box-shadow: 0px 0px 0.5px 1px #ededed;
+  display: block;
+  top: 0;
+  right: 10px;
+  position: absolute;
+}
+.nichetablewpwp-item-design[class*="pro"] .nichetablewpwp-item-design-item {
+  position: relative;
+}
+.nichetablewpwp-item-design[class*="pro"]
+  .nichetablewpwp-item-design-item:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  z-index: 100;
+}
+.nichetablewpwp-item-design span.probtn.importpreview {
+  display: none;
+}
+.nichetablewpwp-item-design .encurragepro {
+  margin-bottom: 0 !important;
+}
+/* new */
+.editor-block-list-item-nichetablewpwp-nichetable-pro {
+  position: relative;
+  opacity: .5;
+}
+.editor-block-list-item-nichetablewpwp-nichetable-pro:hover:after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 0, 0, 0.9);
+  content: "Please Upgrade Your Plan";
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
