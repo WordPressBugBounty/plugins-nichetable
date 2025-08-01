@@ -3,7 +3,7 @@ Contributors: nichetable, Tauhidpro, freemius
 Tags: Comparison Tables, Gutenberg table, Comparison table, responsive tables, data tables, WordPress table plugin,table, Product Comparison Tables, Gutenberg editors table, niche Table, niche, wordpress tables
 Donate link: http://tauhidpro.com/contact/
 Requires at least: 5.2
-Tested up to: 6.6
+Tested up to: 6.8
 Requires PHP: 5.6
 Stable tag: 2.8.4
 License: GPLv2 or later
