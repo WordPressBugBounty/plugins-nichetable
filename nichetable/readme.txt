@@ -1,236 +1,221 @@
-﻿=== Best Responsive Comparison Table for Gutenberg Editor - NicheTable ===
-Contributors: nichetable, Tauhidpro, freemius
-Tags: Comparison Tables, Gutenberg table, Comparison table, responsive tables, data tables, WordPress table plugin,table, Product Comparison Tables, Gutenberg editors table, niche Table, niche, wordpress tables
-Donate link: http://tauhidpro.com/contact/
+﻿=== NicheTable – Responsive Comparison Table Block ===
+Contributors: NicheTable, Tauhidpro, Freemius
+Tags: comparison tables, tables block, responsive tables, data tables, product tables, nichetable, table builder
+Donate link: https://www.wpdab.com/
 Requires at least: 5.2
 Tested up to: 6.8
 Requires PHP: 5.6
-Stable tag: 2.8.4
+Stable tag: 2.9.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-NicheTable is Satisfaction guaranteed Table builder plugin If you use Gutenberg editor. Not for classic-editor lovers.
+NicheTable is a simple and flexible table block plugin for the WordPress block editor.  
+It allows you to create responsive product comparison tables inside posts and pages without coding.
 
 == Description ==
-NicheTable is a table builder plugin to extend **Gutenberg’s editor** so you can create custom Comparison tables into posts and pages in a minute. Usually only possible through popular Table builder plugins for affiliate marketers. No coding is necessary! you will be able to create and edit table in Gutenberg editor.
+NicheTable is a lightweight block-based table builder plugin for the WordPress block editor.  
+You can easily create and edit comparison tables directly inside the editor.  
 
-This great plugin will allow you to show your viewers the **similarities and differences** between two or more products.
+This plugin helps you to display similarities and differences between products, useful for product reviews and comparisons.  
 
-Now you can write detailed product reviews and compare different products in your review. Not only that, but the entire product table will be **affiliate linked** that was considered  by developer .
+= Demo =
+View a live demo here: [Demo Link](https://www.wpdab.com/nichetable/)
 
-= MORE INFORMATION  =
-Please visit Table **[demo](http://tauhidpro.com/nichetable/#wp)** http://tauhidpro.com/nichetable how it will looks like  ?
+= Features =
+* Mobile-friendly and responsive
+* SEO friendly with nofollow support
+* Create tables quickly within the block editor (no shortcode required)
+* Customizable table header colors
+* Image upload support
+* Flexible column and row alignment
 
-= SUPPORTING FUTURE DEVELOPMENT =
-If you like NicheTable, please rate and review it here in the WordPress Plugin Directory or support it with good review. Thank you!
-
-## Featured
-
-* Super mobile optimized - Consider 50% visitor came from mobile.
-* Support nofollow -SEO friendly 
-* Create table within short time 
-* No need to use Shortcode (use in Gutenberg editor)
-* Option to choose color of header
-* Option to upload and use images
-* Option all type of aligning
-
-
-## Video Tutorial
-Step-by-step video tutorials to show How to import a table and change the information. So, Creating a Table is not boring anymore.
-
-https://youtu.be/p1WW-auijOA
-
-To help you get started I created a few step-by-step video tutorials to show how easy to create comparison table by NicheTable.
-
-https://youtu.be/vL9BtK2wxoY
-
+= Video Tutorials =
+Step-by-step tutorials are available on YouTube:  
+https://youtu.be/p1WW-auijOA  
+https://youtu.be/vL9BtK2wxoY  
 
 == How to use ==
+After installing the plugin, you can create and manage tables with different options:
 
-After installing the plugin, you can create and manage tables with 3 Level setting options.
+* **Table:** Configure main settings like header on mobile, alignment, hover effect, shadow effect etc.  
+* **Table Head (th) / Table Row (tr):** Adjust colors and set the number of columns.  
+* **Table Data (td):** Add product images, descriptions, and buttons.  
 
- **Table :** Main table setting such as Table Heading on mobile, ovral alignment, hover effect, shadow effect etc.
-
- **Table Head(th) / Table row(tr) :** you will be able to change Table Head color and Background Color and set how many columns as you need.
-
- **Table Data(td) :** You will be able set Product image, description and button
-
- Tips: First, create a table row with all information and setting, then press Ctrl + Shift d for duplicate rows and change information :)
+Tips: Create a base row with all settings, then duplicate rows (Ctrl + Shift + D) and update the content.
 
 == Installation ==
-
-= To install the plugin automatically: =
-* You'll need WordPress version 5.0 or higher for this to work.
-* Require Gutenberg Editor**
-* Through WordPress admin, use the menu: Plugin > Add new
-* Search for NicheTable
-* Click on install then click activate link
-* Search for a block: NicheTable
+= Automatic Installation =
+* Requires WordPress 5.0 or higher
+* Go to WordPress admin → Plugins → Add New
+* Search for “NicheTable”
+* Click install, then activate
+* Add the “NicheTable” block inside the editor
 
 == Screenshots ==
-
 1. Table Demo 1
-2. Table Demo Dashbord
+2. Table Demo Dashboard
 3. Mobile friendly header Setting
 
 == Frequently Asked Questions ==
+= Is NicheTable free? =  
+Yes, it is completely free.  
 
-= Can I get support for the editor use? =
-We reply to every question about the editor on the forum here, just ask :) 
+= Does NicheTable slow down websites? =  
+No. The plugin only loads inside the editor, not on the front-end.  
 
-= Does Advanced Gutenberg slowing down my website? =
-The plugin has almost NO impact on page load for your visitors, it's only loaded during the edition process.
-
-= Is NicheTable free? =
-Yes, totally free of charge.
-
-
-== Upgrade Notice ==
-
-Update through the automatic WordPress updater, all Advanced Gutenberg content and configuration will remain in place.
+== Changelog ==
 
 == Changelog ==
 
 = 1.0.0 =
 * Initial Release.
+
 = 1.1.3 =
-* Fixed extra space(Reload your editor using(crtl + shift+ R).
-* Fixed extra border(Reload your editor using(crtl + shift+ R) .
+* Fixed extra space (Reload your editor using Ctrl + Shift + R).
+* Fixed extra border (Reload your editor using Ctrl + Shift + R).
+
 = 1.1.5 =
-* Inhance Row edit Options(Reload your editor using(crtl + shift+ R).
+* Enhanced row edit options (Reload your editor using Ctrl + Shift + R).
+
 = 1.2.0 =
-* Import pre-built table demo just  one click.
-= Stable tag: 1.5.2 =
-* compatible with wp version 5.4.
-* highlight table row select area
-* Fixed depreciated warning in editor 
-* Fixed Editor Default table data spacing 
-* Note: Reload your editor using(crtl + shift+ R) enjoy new changes
+* Import pre-built table demo with one click.
 
-= Stable tag: 1.5.3 =
-* Fixed Mobile Scrolling wp 5.4 version
-* Fixed Cannot modify header information - headers already sent by Warning in editor
-* Add table data Before After spacing in Editor 
+= 1.5.2 =
+* Compatible with WP version 5.4.
+* Highlight table row select area.
+* Fixed deprecated warning in editor.
+* Fixed editor default table data spacing.
+* Note: Reload your editor using Ctrl + Shift + R to enjoy new changes.
 
-= Stable tag: 1.5.5 =
-* Improve circle In rating area
-* Mobile version progress. Improve both version free or both
+= 1.5.3 =
+* Fixed mobile scrolling (WP 5.4 version).
+* Fixed “Cannot modify header information - headers already sent” warning in editor.
+* Added table data Before/After spacing in editor.
 
-= Stable tag: 1.5.6 =
-* Improve Image Alt
+= 1.5.5 =
+* Improved circle in rating area.
+* Mobile version progress. Improved both free and pro versions.
 
-= Stable tag: 1.5.8 =
-* Fixed Background select visibility problem in firefox 
+= 1.5.6 =
+* Improved image alt attributes.
 
-= Stable tag: 1.6.0 =
-* Wordpress php 5.4 compatibility 
-* Fixed Admin menu redirect issue
-= Stable tag: 1.6.1 =
-* table header background color
+= 1.5.8 =
+* Fixed background select visibility problem in Firefox.
 
-= Stable tag: 1.6.2 =
-* HTML code featured enable.
+= 1.6.0 =
+* WordPress PHP 5.4 compatibility.
+* Fixed admin menu redirect issue.
 
-= Stable tag: 1.6.3 =
-* New top pick style.
+= 1.6.1 =
+* Table header background color option.
 
-= Stable tag: 1.6.5 =
-* Fixed Before after Link issue
-* Add a New Pro Demo
+= 1.6.2 =
+* Enabled HTML code feature.
 
-= Stable tag: 1.6.6 =
-* Add Row hide option
-* Add Step-by-step video tutorials to show How to import a table and change the information.
+= 1.6.3 =
+* New “Top Pick” style.
 
-= Stable tag: 1.6.7 =
-* Add Header Hide Option
+= 1.6.5 =
+* Fixed Before/After link issue.
+* Added a new Pro demo.
 
-= Stable tag: 1.6.8 =
-* Add border around style style in editor view
-* The bottom border of each row style style in editor view
-* The bottom border of each row and around table editor view
-* Border All editor view
-= Stable tag: 1.6.9 =
-* Fixed Button Issue
+= 1.6.6 =
+* Added row hide option.
+* Added step-by-step video tutorials to show how to import a table and change the information.
 
-= Stable tag: 1.7.1 =
-* Add New Mobile style
+= 1.6.7 =
+* Added header hide option.
 
-= Stable tag: 1.7.3 =
-* Add New Mobile style css issue Fixed
+= 1.6.8 =
+* Added border-around style in editor view.
+* Fixed bottom border of each row in editor view.
+* Improved table border display in editor view.
 
-= Stable tag: 1.7.4 =
-* List Style issue Fixed
+= 1.6.9 =
+* Fixed button issue.
 
-= Stable tag: 1.7.5 =
-* Some issue Fixed for wp 5.5 version
+= 1.7.1 =
+* Added new mobile style.
 
-= Stable tag: 1.7.6 =
-* Solution: changing the column count visibility
-* 5.5 compatible
+= 1.7.3 =
+* Fixed CSS issue in new mobile style.
 
-= Stable tag: 1.8.0 =
-* Fixed changing the column count automatically
+= 1.7.4 =
+* Fixed list style issue.
 
-= Stable tag: 1.8.1 =
-* more lightweight 
-* Table Img topSpace
+= 1.7.5 =
+* Fixed several issues for WP 5.5 version.
 
-= Stable tag: 1.8.2 =
-* Fixed number of column  
-* Mobile top space
+= 1.7.6 =
+* Fixed column count visibility.
+* WP 5.5 compatibility.
 
-= Stable tag: 1.8.3 =
-* Move image wpdab.com
-* Top and Bottom Space
+= 1.8.0 =
+* Fixed automatic column count changes.
 
-= Stable tag: 1.8.4 =
-* Product Images URL change
-* Mobile table small Issue
+= 1.8.1 =
+* Made plugin more lightweight.
+* Improved table image top spacing.
 
-= Stable tag: 1.8.5 =
-* Fixed  Template Inserter
+= 1.8.2 =
+* Fixed number of columns.
+* Fixed mobile top spacing.
 
-= Stable tag: 2.0.1 =
-* Fixed block_categories Issue
+= 1.8.3 =
+* Moved image to wpdab.com.
+* Adjusted top and bottom spacing.
 
-= Stable tag: 2.0.3 =
-* Add list to bottom space
+= 1.8.4 =
+* Changed product image URLs.
+* Fixed mobile table small issue.
 
-= Stable tag: 2.2.1 =
-* Item Load Problem Solved
+= 1.8.5 =
+* Fixed template inserter.
 
-= Stable tag: 2.2.2 =
-* Table Heading not broken in Mobile
+= 2.0.1 =
+* Fixed block_categories issue.
 
-= Stable tag: 2.5.0 =
-* Table Heading not broken in Mobile
-* Fixed: Text color and Gradient Color option not working.
+= 2.0.3 =
+* Added list bottom spacing.
 
-= Stable tag: 2.6.0 =
-* Fixed: Astra Theme Editor Extra Padding.
-* Fixed: Astra Theme hover border.
-* Fixed: Box Sizing.
+= 2.2.1 =
+* Fixed item load problem.
 
-= Stable tag: 2.6.1 =
-* Fixed: Color Options.
+= 2.2.2 =
+* Fixed table heading breaking issue on mobile.
 
-= Stable tag: 2.6.2 =
-* Fixed: Before Content Options.
+= 2.5.0 =
+* Fixed table heading breaking issue on mobile.
+* Fixed text color and gradient color options not working.
 
+= 2.6.0 =
+* Fixed Astra theme editor extra padding.
+* Fixed Astra theme hover border.
+* Fixed box sizing.
 
-= Stable tag: 2.6.3 =
-* Toolbar without label prop is deprecated since version 5.6. So, use ToolbarGroup
+= 2.6.1 =
+* Fixed color options.
 
-= Stable tag: 2.6.4 =
-* Fixed: Table margin bottom issue
+= 2.6.2 =
+* Fixed before content options.
 
-= Stable tag: 2.6.5 =
-* Fixed: Before content icon align issue
+= 2.6.3 =
+* Toolbar without label prop is deprecated since version 5.6. Now using ToolbarGroup.
 
+= 2.6.4 =
+* Fixed table margin bottom issue.
 
-= Stable tag: 2.8.0 =
-* Fixed: fix color palette issue.
+= 2.6.5 =
+* Fixed before content icon alignment issue.
 
-= Stable tag: 2.8.4 =
-* In this version, the Append class of the Table Importer button has been changed which is a big change
+= 2.8.0 =
+* Fixed color palette issue.
+
+= 2.8.1 =
+* Solved option conflicts with Rehub theme.
+
+= 2.8.4 =
+* Changed Append class of the Table Importer button.
+
+= 2.9.1 =
+* Improved plugin performance.
