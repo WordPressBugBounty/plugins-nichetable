@@ -5,7 +5,7 @@
  * Plugin URI: https://www.wpdab.com/nichetable/
  * Author: Tauhidpro
  * Author URI: https://www.wpdab.com/
- * Version: 2.9.1
+ * Version: 2.9.2
  * License: GPL2+
  * Description: Easily create product Comparison Tables that feature all kinds of data. This great plugin will allow you to show your viewers the similarities and differences between two or more products.
  * License URI: https://www.gnu.org/licenses/gpl-2.0.txt 
@@ -13,16 +13,13 @@
  *
  * @package NicheTable
  */
+
 // Exit if accessed directly.
 if ( !defined( 'ABSPATH' ) ) {
     exit;
 }
-//  Dynamically set plugin version from header
-if ( ! defined( 'NICHETABLE_VER' ) ) {
-    $plugin_data = get_file_data( __FILE__, array( 'Version' => 'Version' ), 'plugin' );
-    define( 'NICHETABLE_VER', $plugin_data['Version'] );
-}
-
+// Define
+define( 'NICHETABLE_VER', '2.1.4' );
 // Freemius SDK: Auto deactivate the free version when activating the paid one.
 
 if ( function_exists( 'nictable' ) ) {
@@ -70,26 +67,31 @@ register_activation_hook( __FILE__, function () {
     add_option( 'nichetablewpwp_redirect', true );
 } );
 add_action( 'admin_init', function () {
+    
     if ( get_option( 'nichetablewpwp_redirect', false ) ) {
         delete_option( 'nichetablewpwp_redirect' );
-        wp_safe_redirect( admin_url( 'admin.php?page=nichetablewpwp' ) );
-        exit;
+        exit( wp_redirect( "admin.php?page=nichetablewpwp" ) );
     }
+
 } );
 /** ====== nichetablewpwp_add_action_links plugins activ/dicactivation area =======*/
 
 if ( !function_exists( 'nichetablewpwp_add_action_links' ) ) {
-    add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'nichetablewpwp_add_action_links' );
-
+    add_filter(
+        'plugin_action_links',
+        'nichetablewpwp_add_action_links',
+        10,
+        5
+    );
     function nichetablewpwp_add_action_links( $actions, $plugin_file )
     {
         $action_links = array(
             'demos' => array(
-            'label' => __( 'Demos', 'nichetablewpwp' ),
+            'label' => __( 'Demos', 'my_domain' ),
             'url'   => 'http://tauhidpro.com/nichetable/#wp',
         ),
         );
-        return nichetablewpwp_action_links(
+        return plugin_action_links(
             $actions,
             $plugin_file,
             $action_links,
@@ -99,9 +101,9 @@ if ( !function_exists( 'nichetablewpwp_add_action_links' ) ) {
 
 }
 
-if ( !function_exists( 'nichetablewpwp_action_links' ) ) {
-    /** nichetablewpwp_action_links */
-    function nichetablewpwp_action_links(
+if ( !function_exists( 'plugin_action_links' ) ) {
+    /** plugin_action_links */
+    function plugin_action_links(
         $actions,
         $plugin_file,
         $action_links = array(),
@@ -116,7 +118,7 @@ if ( !function_exists( 'nichetablewpwp_action_links' ) ) {
         if ( $plugin == $plugin_file && !empty($action_links) ) {
             foreach ( $action_links as $key => $value ) {
                 $link = array(
-                    $key => '<a href="' . esc_url( $value['url'] ) . '">' . esc_html( $value['label'] ) . '</a>',
+                    $key => '<a href="' . $value['url'] . '">' . $value['label'] . '</a>',
                 );
                 
                 if ( $position == 'after' ) {
